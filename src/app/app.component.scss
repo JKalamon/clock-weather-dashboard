@@ -1,0 +1,19 @@
+.wrapper {
+  .clock-wrapper{
+    
+    width: 70%;
+    text-align: center;
+
+    .grey{
+      font-size: 2rem;
+    }
+  }
+  .clock {
+    font-size: 18rem;
+    font-weight: 700;
+  }
+}
+
+.grey{
+  color: #777;
+}

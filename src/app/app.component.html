@@ -1,0 +1,9 @@
+<div class="wrapper">
+    Static content
+  <div class="clock-wrapper" *ngIf="currentTime$ | async as date">
+    <div class="clock">
+      {{ date | date: 'h:mm' }}
+    </div>
+    <div class="grey">{{date | date : 'EEEE'}}, 5 days to weekend</div>
+</div>
+</div>
